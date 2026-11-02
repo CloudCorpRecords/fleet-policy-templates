@@ -1,0 +1,1 @@
+{"agents":[{"name":"agent-001","tools":[{"name":"connector-0001","secret_name":"synthetic-token-0001"}]}],"fleet":"bad-orphan-tool","tools":[{"name":"orphan-connector","secret_name":"orphan-token"}]}

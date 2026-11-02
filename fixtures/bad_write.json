@@ -1,0 +1,1 @@
+{"agents":[{"name":"agent-001","tools":[{"name":"connector-0001","permissions":["read","write"],"secret_name":"synthetic-token-0001"}]}],"fleet":"bad-write"}

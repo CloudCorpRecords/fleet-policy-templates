@@ -1,0 +1,1 @@
+{"agents":[{"name":"research-agent","tools":[{"name":"web-search","secret_name":"search-api-token"},{"name":"doc-store","secret_name":"doc-store-token"}]},{"name":"ops-agent","tools":[{"name":"status-pager","secret_name":"pager-token"}]}],"fleet":"starter-fleet"}

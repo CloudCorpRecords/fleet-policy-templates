@@ -1,0 +1,1 @@
+{"agents":[{"name":"agent-001","tools":[{"name":"connector-0001","secret_name":"synthetic-token-0001","vault_path":"fleet/agent-001/**"}]}],"fleet":"bad-double-star"}

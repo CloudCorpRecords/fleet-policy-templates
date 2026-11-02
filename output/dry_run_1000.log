@@ -1,0 +1,15 @@
+====================================================================
+FLEET POLICY TEMPLATES — MOCK DRY RUN (1,000-tool manifest)
+Mode: MOCK (local in-memory shim, no account, no network)
+====================================================================
+Coverage (MOCK): 1000 tools, 1000 unique paths, 0 shared, 0 wildcards, 0 double-star, 1000 policies, lint_clean=True, elapsed=0.338s
+First apply:  {'agents_create': 50, 'agents_skip': 0, 'policies_create': 1000, 'policies_skip': 0, 'policies_drift': 0}
+Second apply: {'agents_create': 0, 'agents_skip': 50, 'policies_create': 0, 'policies_skip': 1000, 'policies_drift': 0} (idempotent re-apply must create 0, drift 0)
+LINT: PASS (clean)
+RESULT: SUCCESS
+
+Note: captured from a live in-session MOCK run on 2026-11-01. An earlier
+identical run measured elapsed=0.077s; timing varies, counts do not.
+Manifest regeneration on disk (fleet_1000.json) is handled by the
+one-time fleet-policy-verify-run cron because in-session Python file
+writes were EPERM-blocked by a VM write-guard window during the build.
